@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// This class spawns the enemies
 public class PacdotSpawner : MonoBehaviour {
 
 	public GameObject pacdot;

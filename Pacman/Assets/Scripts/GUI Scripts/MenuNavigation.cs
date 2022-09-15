@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//This class determines how th emenu bar is navigated
+//enables one to go to the main menu, quit or play.
 public class MenuNavigation : MonoBehaviour {
 
 	public void MainMenu()

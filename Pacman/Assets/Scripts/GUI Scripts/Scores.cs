@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+//Capturing the scores based on the behavious of the movement
 public class Scores : MonoBehaviour
 {
     public ScoreManager scoreManager;

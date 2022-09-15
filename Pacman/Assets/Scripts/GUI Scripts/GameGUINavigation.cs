@@ -8,6 +8,7 @@ public class GameGUINavigation : MonoBehaviour {
 
 	//------------------------------------------------------------------
 	// Variable declarations
+	// This will determine the game state if it is paused, quit or there is an error
 	
 	private bool _paused;
     private bool quit;
@@ -16,7 +17,7 @@ public class GameGUINavigation : MonoBehaviour {
 
 	public float initialDelay;
 
-	// canvas
+	//  that displays the game
 	public Canvas PauseCanvas;
 	public Canvas QuitCanvas;
 	public Canvas ReadyCanvas;
@@ -24,7 +25,7 @@ public class GameGUINavigation : MonoBehaviour {
     public Canvas ErrorCanvas;
     public Canvas GameOverCanvas;
 	
-	// buttons
+	// buttons for the menu
 	public Button MenuButton;
 
 	//------------------------------------------------------------------
